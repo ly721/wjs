@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/*嵌套*/
+.wjs_app{
+	display: block;
+	img{
+		display: none;
+	}
+	/*需要连接的情况： &*/
+	&:hover{
+		img{
+		    display: block;
+		    position:absolute;
+		    left: 50%;
+		    margin-left: -60px;
+		    top: 40px;
+		    border: 1px solid #ccc;
+		    border-top: none;
+		    z-index:10;
+		    
+		}
+		
+	}
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <title>title</title>
+    <link href="../lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+	<!-- 在 IE 9 以下引入 -->
+    <!--[if lt IE 9]>
+      <script src="../lib/html5shiv/html5shiv.min.js"></script>
+      <script src="../lib/respond/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	  <!-- navbar 导航模块 navbar-default 默认样式 -->
+    <nav class="navbar navbar-default">
+		<!-- 流式布局容器 -->
+  <div class="container">
+	  <!-- 包含 商标区域 和 切换按钮（在移动端显示） -->
+    <div class="navbar-header">
+		<!-- 切换按钮 -->
+		<!-- 类名： collapsed
+		 属性：
+		 data-toggle="collapse"  申明是什么组件=折叠组件
+		 data-target="#bs-example-navbar-collapse-1" 控制的目标元素=选择器
+		 其他属性：
+		 aria-expanded="false" aria-* 代表不是给人看的，代表提供给屏幕阅读器使用的
+		  class="sr-only" screen read only
+		 -->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" >
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+	    <li><a href="#">Link</a></li>
+	    <li><a href="#">Link</a></li>
+		<li><a href="#">Link</a></li>
+      </ul>
+	 
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+	
+     <!-- bootstrap依赖 jQuery -->
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="../lib/jquery/jquery.min.js"></script>
+	<!-- bootstrap js 核心文件 -->
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

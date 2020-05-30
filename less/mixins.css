@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/*混入*/
+/*组合样式的例子*/
+/*类混入*/
+/*函数混入*/
+/*1.定义了参数（没有默认值），调用的时候必须传参*/
+/*2.怎么定义默认值 和定义变量值一样
+3.定义了参数（有默认值），可传可不传
+*/
+.w50-f_left {
+  width: 50%;
+  float: right;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -o-border-radius: 50px;
+  -ms-border-radius: 50px;
+}
+/**/

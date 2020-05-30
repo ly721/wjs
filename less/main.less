@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@import  'variable';
+
+@import 'topBar';
+
+@import 'mixins';
+/*import模块组合功能：导入*/
+/*内置函数*/
+/*运算*/
+@num:7;
+div{
+	width: 100%*@num;
+	li{
+		width: 100%/@num;
+		color: red+green;
+		background: gray*3;
+	}
+}
+
